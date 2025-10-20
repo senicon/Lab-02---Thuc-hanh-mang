@@ -43,8 +43,7 @@
             btnRead.TabIndex = 0;
             btnRead.Text = "Đọc file";
             btnRead.UseVisualStyleBackColor = true;
-            btnRead.Click += btnRead_Click;
-            // 
+          // 
             // txtShow
             // 
             txtShow.Location = new Point(255, 39);

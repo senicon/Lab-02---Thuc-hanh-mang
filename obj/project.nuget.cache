@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kGkWnscA3fE=",
+  "dgSpecHash": "d1GAb5nzjPY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ADMIN\\Downloads\\Code-NT106.Q14.2-Lab02_24521213-main\\Code-NT106.Q13.1-Lab02_24520592\\Code-NT106.Q13.1-Lab02_24520592.csproj",
+  "projectFilePath": "C:\\Users\\ADMIN\\Downloads\\Code-NT106.Q13.1-Lab02_24520592-main\\Code-NT106.Q13.1-Lab02_24520592\\Code-NT106.Q13.1-Lab02_24520592.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.data.sqlite\\9.0.10\\microsoft.data.sqlite.9.0.10.nupkg.sha512",
     "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.data.sqlite.core\\9.0.10\\microsoft.data.sqlite.core.9.0.10.nupkg.sha512",
