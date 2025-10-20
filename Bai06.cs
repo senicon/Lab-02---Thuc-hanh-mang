@@ -65,7 +65,7 @@ namespace Code_NT106.Q13._1_Lab02_24520592
             long cnt = (long)chk.ExecuteScalar();
             if (cnt > 0) return;
 
-            string[] users = { "Trương Vĩnh Nguyên", "Reyna", "Đào Mạnh Nhân" };
+            string[] users = { "Huỳnh Vũ Khánh Hưng", "test1", "test2" };
             foreach (var u in users)
             {
                 using var iu = new SQLiteCommand("INSERT INTO NguoiDung (HoVaTen, QuyenHan) VALUES (@n, 'User')", conn);
@@ -75,11 +75,9 @@ namespace Code_NT106.Q13._1_Lab02_24520592
 
             string[][] foods = new[]
             {
-                new[] { "Phở", "https://cdn2.fptshop.com.vn/unsafe/1920x0/filters:format(webp):quality(75)/cach_nau_pho_bo_nam_dinh_0_1d94be153c.png", "1" },
-                new[] { "Bún bò Huế", "https://mms.img.susercontent.com/vn-11134513-7r98o-lsvdf3utj44905@resize_ss640x400!@crop_w640_h400_cT", "2" },
-                new[] { "Cơm tấm", "https://sakos.vn/wp-content/uploads/2024/09/bia.jpg", "3" },
-                new[] { "Bánh mì", "https://cleverjunior.vn/wp-content/uploads/2022/08/gioi-thieu-banh-mi-bang-tieng-anh-1-768x480.jpg", "1" },
-                new[] { "Gỏi cuốn", "https://cdn.tcdulichtphcm.vn/upload/2-2021/images/2021-05-14/1620967472-5fd6cc95e23f4d1eb34009678c2d6556.jpg", "2" }
+                new[] { "Phở", "https://img-cache.coccoc.com/image2?i=2&l=24/330530921", "1" },
+                new[] { "Bún bò Huế", "https://img-cache.coccoc.com/image2?i=1&l=2/332224531", "2" },
+                new[] { "Cơm tấm", "https://img-cache.coccoc.com/image2?i=1&l=79/132313775", "3" },
             };
 
             foreach (var f in foods)
